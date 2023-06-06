@@ -211,3 +211,17 @@ CREATE TABLE owid_energy (
     wind_share_elec NUMERIC,
     wind_share_energy NUMERIC
 );
+
+CREATE TABLE global_temperatures (
+    dt DATE,
+    average_temperature NUMERIC,
+    average_temperature_uncertainty NUMERIC,
+    country TEXT
+);
+
+CREATE TABLE forrest_area (
+    Entity TEXT,
+    Code TEXT,
+    Year INTEGER,
+    Forrest_cover NUMERIC
+);
